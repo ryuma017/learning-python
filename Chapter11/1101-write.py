@@ -1,0 +1,6 @@
+f = open("somefile.txt", "w")
+print(f.write("Hello, "))
+print(f.write("World!"))
+print(f.write("こんにちは、"))
+print(f.write("皆さん！"))
+f.close()
